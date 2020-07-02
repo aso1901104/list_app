@@ -7,7 +7,6 @@
         </div>
     </div>
 </template>
-
 <script>
 export default {
     name: 'Mylist',
@@ -26,7 +25,6 @@ export default {
   }
 }
 </script>
-
 <style>
 div{
   margin:0px;

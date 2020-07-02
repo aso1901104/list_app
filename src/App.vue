@@ -37,8 +37,8 @@ export default {
     if(logs != null){ this.result = logs; }
   },
   methods:{
-    appAction:function(exp){
-      this.result.unshift([exp]);
+    appAction:function(input){
+      this.result.unshift([input]);
       if(this.result.length>5){
         this.result.pop();
       }
